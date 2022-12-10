@@ -1,4 +1,5 @@
 import express from 'express'
+import {Server} from 'socket.io'
 const app: express.Express = express();
 const port = process.env.PORT || 3000;
 app.use(express.json())
